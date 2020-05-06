@@ -1,0 +1,58 @@
+/* header */
+
+#absolute {
+  width: 100%;
+  height: 100%;
+}
+#nb {
+  width: 100vw;
+  height: 20vh;
+  background-color: gray;
+}
+/* content */
+#content {
+  background-color: lightgrey;
+}
+h1 {
+  text-align: center;
+  font-family: anton;
+  font-size: 3em;
+}
+.navbar {
+  background-color: gray !important;
+}
+.navbar-toggler {
+  margin-top: 1%;
+  background-color: whitesmoke;
+  position: relative;
+}
+.navbar-brand {
+  font-family: modak;
+  font-size: 5em;
+}
+.nav-item {
+  font-size: 1.5em;
+  float: right;
+  text-align: center;
+}
+#body {
+  margin: 5vw;
+  margin-top: 0em;
+}
+@media (max-width: 764px) {
+  .navbar-brand {
+    font-size: 3em;
+    padding-top: 25px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-brand {
+    font-size: 5em;
+  }
+}
+@media (min-width: 765px) and (max-width: 991px) {
+  .navbar-brand {
+    font-size: 4em;
+    padding-top: 15px;
+  }
+}
